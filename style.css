@@ -1,0 +1,174 @@
+        *{
+            margin: 0; padding: 0;box-sizing: border-box;
+           color: white;
+        }
+
+   body{
+            background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(o.jpg);
+            width:100%; height: 100vh;
+            background-size: cover;
+            background-position: center;
+}
+          main{
+   
+    font-family: 'Josefin Sans', sans-serif;
+             
+}  
+           
+        
+        nav{ width: 100%; height: 15vh;
+            background: rgba(0,0,0,0.2);
+            color: white; display: flex; justify-content: space-between;
+            align-items: center;
+            
+        }
+        nav .logo{
+    width: 20%; text-align: center;
+           color: white;
+ 
+               position: relative;
+
+    text-align: center;
+    
+    color: white;
+    font-family: poppins;
+    font-weight: 380;
+      border: 5px solid white;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    
+}
+
+nav .logo:hover{
+    background-color: #00b894;
+}
+
+nav .menu{
+    width: 35%; display: flex; justify-content: space-around;
+    font-weight: bold;
+}
+
+nav .menu a{
+    width: 12%;
+    text-decoration: none; color: white;
+    text-transform: uppercase;
+}
+nav .menu a:first-child{
+    color: #00b894;
+}
+nav .menu a:active{
+    color: #00b894;
+}
+
+
+
+section{
+     color: white;
+}
+section h3{
+    font-size: 35px; font-weight: 200; letter-spacing: 3px;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+section .btnone{
+                  position: relative;
+
+    text-align: center;
+    
+     background: white;
+    color: black;
+    
+    
+      border: 5px white;
+    
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+.btnone:hover{
+     background: #00b894;
+    color: white;
+     transition: 0.7s;
+}
+section .btntwo{
+                    position: relative;
+
+    text-align: center;
+    
+     background: #00b894;
+    color: white;
+    
+    
+      border: 5px white;
+    
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 0.5s;
+    
+    
+    
+    
+}
+    
+.btntwo:hover{
+   background: white;
+    color: black; 
+     transition: 0.7s;
+}
+
+footer{
+ width: 100%; height: 6.3vh;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            text-transform: uppercase;
+            font-size: 18px;
+    font-family: sans-serif;
+   
+}
+
+.change_content:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color:  #00b894;
+}
+
+@keyframes changetext{
+    0%{content:"india gate"}
+     20%{content:"qutub minar"}
+     40%{content:"lotus temple"}
+     60%{content:"red fort"}
+     80%{content:"purana qila"}
+     100%{content:"jama masjid"}   
+}
